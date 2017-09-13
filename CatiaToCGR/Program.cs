@@ -163,7 +163,6 @@ namespace CatiaToCGR
                     start_time = DateTime.Now;
                     FolderLevelFiles(rootFld, level, fileExt[0], files);
                     stop_time = DateTime.Now;
-                    stop_time = DateTime.UtcNow;
                     elapsed_time = stop_time.Subtract(start_time);
                     Console.WriteLine("Scan time : " +
                         elapsed_time.TotalSeconds.ToString("0.00") + " secs.\n");
