@@ -20,7 +20,7 @@ namespace CatiaToCGR
         static string rootFld;
         static string listFld;
         static string cgrFld;
-        static string cgrFldx;
+        static string cgrFld;
 
         static String[] fileExt = new string[]
         {
